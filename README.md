@@ -39,10 +39,10 @@ python etl_script.py
 └── README.md
 
 ## Docker
-To build and run the Docker container:
-1-Build the Docker image:
-  docker build -t etl_project .
-2-Run the Docker container:
+To build and run the Docker container:<br/>
+Build the Docker image:<br/>
+  docker build -t etl_project .<br/>
+Run the Docker container:<br/>
   docker run -it --rm etl_project
 
 ## Logging
