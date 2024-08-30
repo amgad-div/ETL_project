@@ -2,4 +2,4 @@ beautifulsoup4
 requests
 pandas
 numpy
-sqlite3
+lxml
