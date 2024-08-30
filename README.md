@@ -1,2 +1,49 @@
-# ETL
-simple ETL project that extract data and make transformation the load it in database.
+# ETL Project
+
+This project demonstrates an ETL (Extract, Transform, Load) process using Python. The script extracts data from a Wikipedia page, transforms it, and loads it into both a CSV file and an SQLite database.
+
+## Table of Contents
+- Installation
+- Usage
+- Project Structure
+- Docker
+- Logging
+
+
+## Installation
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/amgad-div/ETL.git
+    cd ETL
+    ```
+
+2. Install the required packages:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+## Usage
+
+Run the ETL script:
+```bash
+python etl_script.py
+```
+
+## Project Structure
+/etl_project
+│
+├── Dockerfile
+├── requirements.txt
+├── etl_script.py
+└── README.md
+
+## Docker
+To build and run the Docker container:
+1-Build the Docker image:
+  docker build -t etl_project .
+2-Run the Docker container:
+  docker run -it --rm etl_project
+
+## Logging
+The script logs its progress to a file named etl_project_log.txt.
