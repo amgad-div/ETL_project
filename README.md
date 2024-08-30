@@ -40,10 +40,15 @@ python etl_script.py
 
 ## Docker
 To build and run the Docker container:<br/>
-Build the Docker image:<br/>
-  docker build -t etl_project .<br/>
-Run the Docker container:<br/>
-  docker run -it --rm etl_project
+Build the Docker image:
+```bash
+docker build -t etl_project
+```
+Run the Docker container
+```bash
+docker run -it --rm etl_project
+```
+  
 
 ## Logging
 The script logs its progress to a file named etl_project_log.txt.
